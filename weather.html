@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>current weather</title>
+    <script src="https://kit.fontawesome.com/8db0c9f73d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="weather.css">
+</head>
+
+<body>
+    <!-- loader -->
+
+    <!-- Search teams -->
+    <section class="container mt-5">
+        <h1 class="text-center text-light">Current Weather</h1>
+        <div class="input-group mb-3 w-50 mx-auto mt-5">
+            <input type="text" id="searchInput" class="form-control " placeholder="Search here" aria-label="search here"
+                aria-describedby="button-addon2">
+            <button onclick="search()" class="btn btn-outline-secondary" type="button"
+                id="button-addon2">Search</button>
+        </div>
+        <h5 id="errorMessage" class="text-light">Plsease write a city name!</h5>
+        <h5 id="notFound" class="text-light">Input correct city name</h5>
+    </section>
+
+    <section class="container">
+        <h1 id="city-name" class="text-center mt-5 text-light">Dhaka</h1>
+        <h4 class="text-center text-light"><span id="temperature">0 </span>&#8451;</h4>
+        <p id="weather" class="text-center text-light">Clouds</p>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script src="weaher.js"></script>
+</body>
+
+</html>
