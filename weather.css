@@ -1,12 +1,7 @@
-body{
-    color: rgb(0, 0, 0);
-    background-color: #d2d3d2;
-    background-image: url('wallpaper.jpg');
+body { 
+    background: url(wallpaper.jpg) no-repeat center center fixed; 
     background-size: cover;
 }
-
-
-  
 #feature{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
