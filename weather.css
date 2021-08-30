@@ -2,6 +2,7 @@ body {
     background: url(wallpaper.jpg) no-repeat center center fixed; 
     background-size: cover;
 }
+
 #feature{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
